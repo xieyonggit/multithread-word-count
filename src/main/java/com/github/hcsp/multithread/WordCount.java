@@ -5,7 +5,9 @@ import java.util.List;
 import java.util.Map;
 
 public class WordCount {
-    public WordCount(int threadNum) {}
+    public WordCount(int threadNum) {
+        int i=1;
+    }
 
     // 统计文件中各单词的数量
     public Map<String, Integer> count(List<File> file) {
